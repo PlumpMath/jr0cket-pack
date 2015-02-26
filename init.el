@@ -17,3 +17,7 @@
 
 ;; Stop the buffer jumping when scrolling up and down
 (setq scroll-conservatively 999999)
+
+;; Automatically update a buffer if a file change is detected,
+;; unless the buffer has unsaved modifications
+(global-auto-revert-mode t)
