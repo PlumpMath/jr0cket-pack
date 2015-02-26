@@ -21,3 +21,7 @@
 ;; Automatically update a buffer if a file change is detected,
 ;; unless the buffer has unsaved modifications
 (global-auto-revert-mode t)
+
+;; Replace a selected region by typing text, 
+;; or delete selected region with Backspace key
+(delete-selection-mode 1)
