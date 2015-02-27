@@ -67,3 +67,9 @@
 
 ;; revealjs path - I add revealjs directory to my .org directory, so path is empty
 (setq org-reveal-root "")
+
+;; Play music with Emacs Multi-media system (EMMS)
+(live-add-pack-lib "emms")
+(require 'emms-setup)
+(emms-standard)
+(emms-default-players)

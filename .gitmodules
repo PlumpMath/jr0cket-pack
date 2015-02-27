@@ -4,3 +4,6 @@
 [submodule "lib/org-reveal"]
 	path = lib/org-reveal
 	url = git@github.com:jr0cket/org-reveal.git
+[submodule "lib/emms"]
+	path = lib/emms
+	url = git://git.sv.gnu.org/emms.git
