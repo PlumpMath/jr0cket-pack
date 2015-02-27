@@ -32,3 +32,6 @@
 
 ;; Catagories to organise buffers by type in IBuffer
 (live-load-config-file "ibuffer-categories.el")
+
+;; Run Emacs server on startup, so files can be open with emacsclient
+(live-load-config-file "emacs-server.el")
