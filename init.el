@@ -46,4 +46,11 @@
 (live-load-config-file "switch-off-emacs-live-features.el")
 
 ;; Customise the Emacs Modeline
-(live-load-config-file "clean-mode-line.el")
+
+;; Use Greek symbols to represent major & minor modes, saving space on modeline
+ (live-load-config-file "clean-mode-line.el")
+
+;; Add colour seperators to highlight sections of the modeline
+(live-add-pack-lib "powerline")
+(require 'powerline)
+(powerline-jr0cket-theme)
