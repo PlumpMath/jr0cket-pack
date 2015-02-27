@@ -54,3 +54,10 @@
 (live-add-pack-lib "powerline")
 (require 'powerline)
 (powerline-jr0cket-theme)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Additional Features
+
+;; Kanban style todo list with Org-mode
+(live-load-config-file "kanban-org-mode.el")
