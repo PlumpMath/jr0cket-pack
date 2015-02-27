@@ -45,3 +45,5 @@
 ;; Switch off some features from Emacs Live
 (live-load-config-file "switch-off-emacs-live-features.el")
 
+;; Customise the Emacs Modeline
+(live-load-config-file "clean-mode-line.el")
