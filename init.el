@@ -38,3 +38,6 @@
 
 ;; Re-load previously open buffers when you last ran Emacs
 (live-load-config-file "maintain-emacs-session.el")
+
+;; Layout windows and open prefered buffers when Emacs starts
+(live-load-config-file "frame-layout-jr0cket.el")
