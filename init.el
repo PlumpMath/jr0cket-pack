@@ -30,3 +30,5 @@
 (live-load-config-file "bindings.el")
 
 
+;; Catagories to organise buffers by type in IBuffer
+(live-load-config-file "ibuffer-categories.el")
