@@ -35,3 +35,6 @@
 
 ;; Run Emacs server on startup, so files can be open with emacsclient
 (live-load-config-file "emacs-server.el")
+
+;; Re-load previously open buffers when you last ran Emacs
+(live-load-config-file "maintain-emacs-session.el")
