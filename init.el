@@ -25,3 +25,8 @@
 ;; Replace a selected region by typing text, 
 ;; or delete selected region with Backspace key
 (delete-selection-mode 1)
+
+;; Custom keybindings for Emacs
+(live-load-config-file "bindings.el")
+
+
