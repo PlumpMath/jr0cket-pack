@@ -41,3 +41,7 @@
 
 ;; Layout windows and open prefered buffers when Emacs starts
 (live-load-config-file "frame-layout-jr0cket.el")
+
+;; Switch off some features from Emacs Live
+(live-load-config-file "switch-off-emacs-live-features.el")
+
