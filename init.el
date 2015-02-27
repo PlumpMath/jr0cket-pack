@@ -61,3 +61,9 @@
 
 ;; Kanban style todo list with Org-mode
 (live-load-config-file "kanban-org-mode.el")
+
+;; Create web based slide decks with Org-mode & Org-reveal
+(live-add-pack-lib "org-reveal")
+
+;; revealjs path - I add revealjs directory to my .org directory, so path is empty
+(setq org-reveal-root "")

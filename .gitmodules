@@ -1,3 +1,6 @@
 [submodule "lib/powerline"]
 	path = lib/powerline
 	url = git@github.com:jr0cket/powerline.git
+[submodule "lib/org-reveal"]
+	path = lib/org-reveal
+	url = git@github.com:jr0cket/org-reveal.git
