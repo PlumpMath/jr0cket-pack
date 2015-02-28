@@ -73,3 +73,6 @@
 (require 'emms-setup)
 (emms-standard)
 (emms-default-players)
+
+;; Clojure coding challenges from 4Clojure.org
+(live-load-config-file "four-clj.el")
