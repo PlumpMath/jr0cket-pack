@@ -4,6 +4,16 @@
 
   Just like Emacs itself, Emacs Live is highly configurable and it recommended you do so via a **Live Pack**.  All your own preferences and any additional features can be easily added to Emacs Live by adding them to your Live Pack.
 
+  This Live Pack has the following configuration & features
+
+  * Ubuntu Mono font
+  * Buffer layout and categories
+  * Run Emacs Server at startup
+  * Re-load buffers from previous session
+  * Modeline customisation
+  * Kanban todo list via Org-mode
+  * Emacs Multi-media System (EMMS)
+
   Read on for details on how the Live Pack is organised.
 
 ## init.el
