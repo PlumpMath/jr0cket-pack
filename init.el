@@ -71,7 +71,7 @@
 (setq org-reveal-root "")
 
 ;; Play music with Emacs Multi-media system (EMMS)
-(live-add-pack-lib "emms")
+(live-add-pack-lib "emms/lisp")
 (require 'emms-setup)
 (emms-standard)
 (emms-default-players)
