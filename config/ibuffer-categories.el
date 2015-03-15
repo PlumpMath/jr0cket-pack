@@ -11,7 +11,7 @@
             ("Kanban"
              (filename . "todo-list.org"))
             ("jr0cket Blog"
-              (filename . "/jr0cket-blog/"))
+              (filename . "/dev-docs/"))
             ("Slides" ;; Slide decks created in Org-mode for Org-reveal
              (filename . "/slides/"))
             ("Clojure Practical.li"
@@ -19,7 +19,7 @@
             ("Emacs Practical.li"
               (filename . "/emacs-practical.li/"))
             ("Agileforce Blog"
-              (filename . "/jr0cket-blog/"))
+              (filename . "/agileforce.github.io/"))
             ("Lightning Practical.li"
               (filename . "/lightning-practical.li/"))
             ("Heroku Workshop"
