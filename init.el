@@ -13,7 +13,7 @@
 ;; General Emacs configuration
 
 ;; Set the font family and size for Emacs
-(live-set-default-font "Ubuntu Mono 16")
+(live-set-default-font "Ubuntu Mono 12")
 
 ;; Stop the buffer jumping when scrolling up and down
 (setq scroll-conservatively 999999)
@@ -57,6 +57,9 @@
 (require 'powerline)
 (powerline-jr0cket-theme)
 
+;; Override the cyberpunk default theme
+(live-load-config-file "cyberpunk-jr0cket.el")
+(color-theme-cyberpunk-jr0cket)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Additional Features
